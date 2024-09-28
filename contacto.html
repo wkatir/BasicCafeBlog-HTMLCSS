@@ -31,16 +31,25 @@
         </div>
     </header>
     <main class="container">
-        <h3 class="center-text">Sobre Nosotros</h3>
-        <div class="about-us">
-            <div class="about-us__img">
-                <img src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1727459178/assets-BlogCafe/vejnx8ebkopumanzu0bz.jpg" alt="Img About us">
+        <h3 class="center-text">Contacto</h3>
+        <div class="contact-bg"></div>
+        <form class="form">
+            <div class="field">
+                <label class="field__label" for="name">Nombre: </label>
+                <input class="field__field" type="text" id="name" placeholder="Tu Nombre">
             </div>
-            <div class="about-us__text">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ea quos, deleniti corrupti aspernatur eligendi obcaecati doloribus vel vero necessitatibus a, autem omnis consequuntur similique, molestiae perspiciatis blanditiis iusto sequi.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda impedit tenetur aliquam quas! Sequi eaque non quo dolorem quisquam saepe at. Ut esse est, laborum libero atque aliquid ullam maxime?</p>
+            <div class="field">
+                <label class="field__label"  for="email">Email: </label>
+                <input class="field__field" type="email" id="email" placeholder="Tu Email">
             </div>
-        </div>
+            <div class="field">
+                <label class="field__label"  for="message">Mensaje: </label>
+                <textarea class="field__field field__field--textarea" id="message"></textarea>
+            </div>
+            <div class="field">
+                <input type="submit" value="Enviar" class="btn btn--primary">
+            </div>
+        </form>
     </main>
     <footer class="footer">
         <div class="container">
